@@ -1,0 +1,35 @@
+.container {  display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Picture Name"
+      "Contact Professional-Profile"
+      "Skills Education"
+      "Language Experience"
+      "Extracurricular-Activities Experience";
+  }
+  
+  .Contact { grid-area: Contact; }
+  
+  .Extracurricular-Activities { grid-area: Extracurricular-Activities; }
+  
+  .Language { grid-area: Language; }
+  
+  .Skills { grid-area: Skills; }
+  
+  .Professional-Profile { grid-area: Professional-Profile; }
+  
+  .Education { grid-area: Education; }
+  
+  .Experience { grid-area: Experience; }
+  
+  .Picture { grid-area: Picture; height: 25%;}
+  
+  .Name { grid-area: Name; }
+  
+  
+  .container * {
+    border: 1px solid red; position: relative;
+}
