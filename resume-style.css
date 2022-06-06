@@ -11,25 +11,43 @@
       "Extracurricular-Activities Experience";
   }
   
-  .Contact { grid-area: Contact; }
+  .Contact { grid-area: Contact;  }
   
+  
+  
+  .Language { grid-area: Language;  }
+  
+  .Skills { grid-area: Skills;  }
+  
+  .Professional-Profile { grid-area: Professional-Profile;  }
+  
+  .Education { grid-area: Education;  }
+  
+  .Experience { grid-area: Experience;  }
+
   .Extracurricular-Activities { grid-area: Extracurricular-Activities; }
   
-  .Language { grid-area: Language; }
-  
-  .Skills { grid-area: Skills; }
-  
-  .Professional-Profile { grid-area: Professional-Profile; }
-  
-  .Education { grid-area: Education; }
-  
-  .Experience { grid-area: Experience; }
-  
-  .Picture { grid-area: Picture; height: 25%;}
+  .Picture { grid-area: Picture; height: 25%; }
   
   .Name { grid-area: Name; }
   
   
-  .container * {
+  /* .container * {
     border: 1px solid red; position: relative;
+
+
+
+} */
+
+body { background-color:  rgb(60, 99, 99);
+  color: aliceblue;
+ 
+
+
+}
+
+html, body, .container {
+
+  height: 0%;
+  
 }
