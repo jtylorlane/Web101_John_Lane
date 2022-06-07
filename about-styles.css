@@ -4,7 +4,6 @@ main {
     align-items: center;
     height: 300px;
     justify-content: center;
-    /* background-color: rgb(104, 143, 174); */
    background-image: url("./aboutMeBackgroundPic.jpg");
    background-repeat: no-repeat;
    background-size: cover;
@@ -36,13 +35,31 @@ p {
 
 }
 
-main { grid-area: main;}
-.One {grid-area: one;}
-.onePic {grid-area: one;}
-.Two {grid-area: two;}
-.twoPic {grid-area: two;}
-.Three {grid-area: three;}
-.threePic {grid-area: three;}
+main {
+     grid-area: main;
+    }
+.One {
+    grid-area: one;
+    
+}
+.onePic {
+    grid-area: one;
+    width: 30%;
+}
+.Two {
+    grid-area: two;
+}
+.twoPic {
+    grid-area: two;
+    width: 25%;
+}
+.Three {
+    grid-area: three;
+}
+.threePic {
+    grid-area: three;
+    width: 25%
+}
 
 .container {
     display: grid;
