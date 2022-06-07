@@ -1,0 +1,78 @@
+main {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    height: 300px;
+    justify-content: center;
+    background-color: rgb(104, 143, 174);
+   
+
+}
+
+section {
+    padding: 20px;
+    min-height: 100px;
+    text-align: left;
+}
+
+h1 {
+    
+    font-size: 50px;
+    text-align: center;
+
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 38px;
+    text-align: left;
+}
+p {
+
+    font-size: 22px;
+    font-weight: 700;
+    text-align: left;
+
+}
+
+main { grid-area: main;}
+.One {grid-area: one;}
+.onePic {grid-area: one;}
+.Two {grid-area: two;}
+.twoPic {grid-area: two;}
+.Three {grid-area: three;}
+.threePic {grid-area: three;}
+
+.container {
+    display: grid;
+    grid-template-areas: 
+    "main"
+    "one"
+    "onePic"
+    "two"
+    "twoPic"
+    "three"
+    "threePic";
+}
+
+@media (min-width: 576px)
+
+{
+
+
+}
+
+@media (min-width: 992px) 
+{
+    .container {
+        display: grid;
+        grid-template-areas:
+        "main main"
+        "one onePic" 
+        "two twoPic"
+        "three threePic";
+
+    }
+
+
+}    
