@@ -4,9 +4,10 @@ main {
     align-items: center;
     height: 300px;
     justify-content: center;
-    background-color: rgb(104, 143, 174);
-   
-
+    /* background-color: rgb(104, 143, 174); */
+   background-image: url("./aboutMeBackgroundPic.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
 }
 
 section {
